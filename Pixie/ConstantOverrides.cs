@@ -8,26 +8,27 @@ using UnityEngine;
 public class ConstantOverrides : MonoBehaviour
 {
     /// <summary> 
-    /// Number of save files the game supports
+    /// Number of save files the game supports. Optional.
     /// </summary>
-    public int saveFiles = 7;
+    public int SaveFiles = 7;
 
     /// <summary>
-    /// Number of rooms (scenes) the game supports 
+    /// Number of rooms (scenes) the game supports. Generally best to set to a maximum number you think you'll need.
+    /// Useful for creating consistent save files regardless of player progress, and DLCs.
     /// </summary>
-    public int numberOfRooms = 100;
+    public int NumberOfRooms = 100;
 
     /// <summary>
     /// The FPS target for FixedUpdate. Should match the target of Update, generally.
     /// Do Time.fixedDeltaTime = 1f / (Constants.fixedUpdateFPS) in a startup script;
     /// </summary>
-    public int fixedUpdateFPS = 60;
+    public int FixedUpdateFPS = 60;
 
     void Start()
     {
-        Constants.SaveFiles = saveFiles;
-        Constants.NumberOfRooms = numberOfRooms;
+        Constants.SaveFiles = SaveFiles;
+        Constants.NumberOfRooms = NumberOfRooms;
 
-        Constants.FixedUpdateFPS = fixedUpdateFPS;
+        Constants.FixedUpdateFPS = FixedUpdateFPS;
     }
 }

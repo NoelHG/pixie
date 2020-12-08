@@ -13,9 +13,12 @@ public class CameraControl : MonoBehaviour
     /// </summary>
     [SerializeField] float cameraDepth = -1f;
 
+    public bool IsTracking { get; set; }
+
     void Update()
     {
-        MoveCamera(transform.position);
+        if (IsTracking)
+            MoveCamera(transform.position);
     }
 
     public void MoveCamera(Vector2 target)
