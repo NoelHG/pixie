@@ -7,23 +7,24 @@ The idea is to save myself and everyone else time and headaches by putting toget
 
 The first thing is to refactor and generalize the code from Black Chapter and put it here if it makes sense to do so. Then, additional features can be included.
 
-Features:
 
-  2D Dynamic Layer Ordering
-  Animations
-  Deterministic Movement
-  Event System (With Queue)
-  Game State Control
-  Interactions (Characters / Objects)
-  Items & Inventory
-  Pathing For 2D
-  Player & Camera Control
-  Save/Load
-  Scene Management
-  Sound System
-  UI
-  Useful Helper Functions & Prebuilt Unity Objects
-  
+<h3 class="list-heading">Features:</h3>
+<ul>
+  <li>2D Dynamic Layer Ordering</li>
+  <li>Animations</li>
+  <li>Deterministic Movement</li>
+  <li>Event System (With Queue)</li>
+  <li>Game State Control</li>
+  <li>Interactions (Characters / Objects)</li>
+  <li>Items & Inventory</li>
+  <li>Pathing For 2D</li>
+  <li>Player & Camera Control</li>
+  <li>Save/Load</li>
+  <li>Scene Management</li>
+  <li>Sound System</li>
+  <li>UI</li>
+  <li>Useful Helper Functions & Prebuilt Unity Objects</li>
+</ul>
   
   
 
